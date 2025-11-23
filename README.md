@@ -27,3 +27,12 @@ A makefile is included with this project and describes how all artifacts (data, 
 The main product of this analysis if the final report. Which can be built using make inside the rstudio terminal in the docker container with the following command. Make sure your working directory is the airbnb director.
 
 `make report.html`
+
+## Project Files
+
+* preproccessing.R contains R code to prepare the Airbnb_Open_Data.csv for analysis
+* summary_statistics.R contains R code for some exploratory data analyses and summary statistics
+* borough_summary_plots.R contains R code to create plots summarizing information by borough
+* number_of_reviews_trends.R contains R code to create plots summarizing trends in the number of reviews
+* model_building.R contains R code to select and fit a linear regression model
+* report.Rmd is an R markdown file which creates our final report
